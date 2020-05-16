@@ -9,6 +9,7 @@ class EmailAddressParser
   
   def initialize(email)
     @email = email
+  end  
 
   def parse 
     email.split.collect do |address|
@@ -16,5 +17,6 @@ class EmailAddressParser
     end
     .flatten.uniq 
     end 
+  end  
 end 
   
