@@ -9,7 +9,7 @@ class EmailAddressParser
   
 
   def self.parse
-    @@email_array = []
+    
   end
 end  
     
