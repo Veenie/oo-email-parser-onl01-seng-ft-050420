@@ -6,11 +6,13 @@
 
 class EmailAddressParser
   attr_accessor :email
-  
+  @@email_array = []
 
   def self.parse
-    
+    @@email_array << email
   end
+  
+  
 end  
     
   
