@@ -6,6 +6,9 @@
 
 class EmailAddressParser(email_addresses)
   
+  def initialize
+    
+  
   def self.parse
     @@email_array = []
       
