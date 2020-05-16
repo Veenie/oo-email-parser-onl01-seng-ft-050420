@@ -8,7 +8,8 @@ class EmailAddressParser
   attr_accessor :email
   @@email_array = []
 
-  def self.parse
+  def self.parse(email)
+    
     @@email_array << email
   end
   
