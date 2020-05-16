@@ -5,12 +5,15 @@
 
 
 class EmailAddressParser(email_addresses)
+  attr_accessor :email
   
   def initialize
-    
+    @email = email
+  end  
   
   def self.parse
     @@email_array = []
-      
+  end
+end  
     
   
